@@ -1,0 +1,5 @@
+Home -> About,
+About -> Home,
+Home -> Online Booking,
+Online Booking -> Pooja Booking,
+Pooja Booking -> Book now.

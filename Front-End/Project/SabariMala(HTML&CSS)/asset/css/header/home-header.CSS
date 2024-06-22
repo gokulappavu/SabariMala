@@ -34,7 +34,7 @@ header{
 }
 #header_nav_02{
     padding: 10px 0 0 0;
-    margin: 5% 10% 0 0; 
+    margin: 2% 10% 0 0; 
     justify-self: end;
 	grid-column-start: 2;
     grid-column-end: 4;

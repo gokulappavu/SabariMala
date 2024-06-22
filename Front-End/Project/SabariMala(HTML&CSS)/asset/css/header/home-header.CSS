@@ -25,7 +25,7 @@ header{
 }
 #header_nav_01{
     padding: 10px 0 0 0;
-    margin: 0px 0px 0px 280px;
+    margin: 0px 0px 0px 270px;
     justify-self: end;
     grid-row-start: 1;
     grid-row-end: 2;
@@ -34,7 +34,7 @@ header{
 }
 #header_nav_02{
     padding: 10px 0 0 0;
-    margin: 10px 150px 0px 0px; 
+    margin: 10px 50px 0px 0px; 
     justify-self: end;
 	grid-column-start: 2;
     grid-column-end: 4;
@@ -49,7 +49,7 @@ header{
 }
 .home_header_nav ul li{
     list-style-type: none;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 5px 0px 5px;
     margin: 0px 10px 0px 10px;
 }
 .home_header_nav ul li a{

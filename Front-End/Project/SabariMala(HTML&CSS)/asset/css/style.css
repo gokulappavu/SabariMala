@@ -1,14 +1,10 @@
 *{
     margin: 0;
     padding: 0;
+    color: #F7EBD1;
     background-color: #333333;
 }
-header{
-    border: 1px solid white;
-}
-main{
-    border: 1px solid white;
-}
-footer{
-    border: 1px solid white;
+#banner_img img{
+    width: 100%;
+    height: 300px;
 }

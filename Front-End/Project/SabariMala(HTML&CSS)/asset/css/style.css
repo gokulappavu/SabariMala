@@ -84,13 +84,14 @@
 }
 .nav-foot{
     background-color: white;
+    display: flex;
+    justify-content: space-around;
     #block{
-        border: 1px solid #e4e4e4;
+        /* border: 1px solid #e4e4e4; */
         background-color: white;    
         width: 50%;
         height: auto;
         #h2-tag{
-            text-align: center;
             h2{
                 background-color: white; 
                 color: black;
@@ -99,6 +100,7 @@
         #table-tag{
             background-color: white;
             table{
+                background-color: white; 
                 border: 1px solid #e4e4e4;
                 td{
                     background-color: white; 
@@ -125,8 +127,31 @@
             a{
                 background-color: white;
                 color: red;
+                text-decoration: none;
             }
         }
+    }
+    #block-2{
+       #header{
+        h2{
+            background-color: white; 
+            color: black;
+        }
+       }
+       #image{
+        background-color: #F7EBD1;
+        img{
+            width: 380px;
+            height: auto;
+            background-color: #F7EBD1;
+        }
+       }
+       #footer{
+        p{
+            background-color: white; 
+            color: black;
+        }
+       } 
     }
 }
 

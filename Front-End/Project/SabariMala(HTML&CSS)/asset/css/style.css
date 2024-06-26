@@ -1,158 +1,212 @@
-*{
+* {
     margin: 0;
     padding: 0;
     color: #F7EBD1;
     background-color: #333333;
 }
-#banner_img{
-    img{
+
+#banner_img {
+    img {
         width: 100%;
         height: 300px;
     }
-    img:hover{
+
+    img:hover {
         transition: 5s;
         scale: 1.2;
+        border-radius: 15%;
     }
 }
-#booking{
-    height: 70px;
+
+#booking {
+    height: 90px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     background-color: #F7EBD1;
-    .book{  
+
+    .book {
         background-color: #F7EBD1;
-        a{
+
+        a {
             background-color: #F7EBD1;
         }
-        img{
-            width: 180px;
-            height: 50px;
+
+        img {
+            width: 250px;
+            height: auto;
         }
-        img:hover{
+
+        img:hover {
             transition: 5s;
             scale: 1.2;
+            border-radius: 15%;
         }
     }
 }
-.general{
+
+.general {
     background-color: #DBCDAF;
     height: 150px;
-    #divider{
+
+    #divider {
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: #DBCDAF;  
-        a{
-            background-color: #DBCDAF;  
-            img{
+        background-color: #DBCDAF;
+
+        a {
+            background-color: #DBCDAF;
+
+            img {
                 width: 100%;
                 height: 60px;
                 background-color: #DBCDAF;
             }
-            img:hover{
+
+            img:hover {
                 transition: 5s;
                 scale: 1.2;
+                border-radius: 15%;
             }
         }
     }
-    #gen-info{
-        background-color: #DBCDAF; 
-            ul{
-                display: flex;
-                align-items: center;
-                justify-content: space-evenly;
-                background-color: #DBCDAF; 
-                li{
-                    list-style-type: none;
-                    background-color: #DBCDAF; 
-                    a{
-                        text-decoration: none;
-                        background-color: #DBCDAF;
-                        img{
-                            width: 150px;
-                            height: 70px;
-                        }
-                        img:hover{
-                            transition: 5s;
-                            scale: 1.2;
-                        }   
+
+    #gen-info {
+        background-color: #DBCDAF;
+
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            background-color: #DBCDAF;
+
+            li {
+                list-style-type: none;
+                background-color: #DBCDAF;
+
+                a {
+                    text-decoration: none;
+                    background-color: #DBCDAF;
+
+                    img {
+                        width: 150px;
+                        height: 70px;
+                    }
+
+                    img:hover {
+                        transition: 5s;
+                        scale: 1.2;
+                        border-radius: 15%;
                     }
                 }
             }
-    }   
+        }
+    }
 }
-.nav-foot{
+
+.nav-foot {
+    width: 100%;
+    height: auto;
     background-color: white;
     display: flex;
     justify-content: space-around;
-    #block{
+
+    #block {
         /* border: 1px solid #e4e4e4; */
-        background-color: white;    
+        background-color: white;
         width: 50%;
         height: auto;
-        #h2-tag{
-            h2{
-                background-color: white; 
+
+        #h2-tag {
+            h2 {
+                background-color: white;
                 color: black;
             }
         }
-        #table-tag{
+
+        #table-tag {
             background-color: white;
-            table{
-                background-color: white; 
+
+            table {
+                background-color: white;
                 border: 1px solid #e4e4e4;
-                td{
-                    background-color: white; 
-                    blockquote{
+
+                td {
+                    background-color: white;
+
+                    blockquote {
                         display: flex;
                         justify-content: flex-start;
                         align-items: center;
                         background-color: #F7EBD1;
-                        border-left : 5px solid #EAD7AF;
-                        p{
+                        border-left: 5px solid #EAD7AF;
+
+                        p {
                             width: 200px;
                             background-color: #F7EBD1;
                             color: #333333;
                         }
-                        img{
+
+                        img {
                             margin-inline-start: 10px;
                             width: 150px;
                             height: auto;
-                            background-color: #F7EBD1;
+                            background: transparent;
+                        }
+
+                        img:hover {
+                            transition: 5s;
+                            scale: 1.2;
+                            border-radius: 15%;
                         }
                     }
                 }
             }
-            a{
+
+            a {
                 background-color: white;
                 color: red;
                 text-decoration: none;
             }
         }
     }
-    #block-2{
-       #header{
-        h2{
-            background-color: white; 
-            color: black;
+
+    #block-2 {
+        background-color: white;
+
+        #header {
+            background-color: white;
+
+            h2 {
+                background-color: white;
+                color: black;
+            }
         }
-       }
-       #image{
-        background-color: #F7EBD1;
-        img{
-            width: 380px;
-            height: auto;
+
+        #image {
             background-color: #F7EBD1;
+
+            img {
+                width: 400px;
+                height: auto;
+                background-color: white;
+            }
+
+            img:hover {
+                transition: 5s;
+                scale: 1.2;
+                border-radius: 15%;
+            }
         }
-       }
-       #footer{
-        p{
-            background-color: white; 
-            color: black;
+
+        #footer {
+            background-color: white;
+
+            p {
+                background-color: white;
+                color: black;
+            }
         }
-       } 
     }
 }
-
-

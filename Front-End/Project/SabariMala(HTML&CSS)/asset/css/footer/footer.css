@@ -1,20 +1,25 @@
-*{
+* {
     margin: 0;
     padding: 0;
     color: #F7EBD1;
     background-color: #333333;
 }
-.main-footer{
-    #1st-col{
-        h2{
 
-        }
-        #mail-link{
+.main-footer {
+    #1st-col {
+        h2 {}
+
+        #mail-link {
             display: flex;
             flex-direction: column;
         }
-        #social-media{
-            display: flex;
+
+        #social-media {
+            ul {
+                display: inline;
+
+                li {}
+            }
         }
     }
 }

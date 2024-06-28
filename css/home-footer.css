@@ -6,9 +6,24 @@
 }
 
 .main-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     #1st-col {
-        h2 {}
-
+        h2 {
+            color: #F7EBD1;
+            border-bottom: 1px solid yellow;
+            margin-bottom: 10px;
+        }
+        #mail-link{
+            ul{
+                li{
+                    list-style-type: none;
+                    a{
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
         #mail-link {
             display: flex;
             flex-direction: column;
@@ -16,9 +31,10 @@
 
         #social-media {
             ul {
-                display: inline;
-
-                li {}
+                display: flex; 
+                li {
+                    list-style-type: none;
+                }
             }
         }
     }

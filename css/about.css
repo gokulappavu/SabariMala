@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    background-color: #333333;
+}
+
+#banner {
+    background-image: url(/img/inner-banner.png);
+    top: 0;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        color: yellow;
+
+    }
+}
+
+.cont {
+    width: 70%;
+    margin: 0px 15% 0px 15%;
+
+    img {
+        float: left;
+        width: 280px;
+        padding-right: 10px;
+    }
+
+    p {
+        margin: 3%;
+    }
+}

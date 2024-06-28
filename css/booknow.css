@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main { 
+    .right {
+        height: 500px;
+        float: right;
+        margin: 20px;
+        text-align: center;
+        #rt {
+            margin-top: 40%;
+            h1 {
+                margin: 10px
+            }
+
+            h3 {
+                margin: 10px;
+            }
+
+            form {
+                display: flex;
+                flex-direction: column;
+                
+                .tex {
+                    margin-top: 20px;
+                    height: 30px;
+                }
+
+                .btn {  
+                    margin-top: 20px;
+                }
+            }
+            p{
+                text-align: left;
+            }
+        }
+    }
+}

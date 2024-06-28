@@ -1,41 +1,92 @@
 * {
     margin: 0;
     padding: 0;
-    color: #F7EBD1;
     background-color: #333333;
 }
 
 .main-footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    #1st-col {
+
+    #col01 {
         h2 {
             color: #F7EBD1;
             border-bottom: 1px solid yellow;
             margin-bottom: 10px;
+            text-align: center;
+            text-transform: uppercase;
         }
-        #mail-link{
-            ul{
-                li{
+
+        #mail-link {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            ul {
+                li {
                     list-style-type: none;
-                    a{
+
+                    text-align: center;
+                    margin: 10px;
+
+                    a {
                         text-decoration: none;
+                        color: #F7EBD1;
                     }
                 }
             }
         }
-        #mail-link {
-            display: flex;
-            flex-direction: column;
-        }
 
         #social-media {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+
             ul {
-                display: flex; 
+                display: flex;
+
                 li {
                     list-style-type: none;
+                    margin: 20px;
+
+                    a {
+                        color: #F7EBD1;
+                    }
                 }
             }
+        }
+    }
+
+    #col02 {
+        h2 {
+            color: #F7EBD1;
+            border-bottom: 1px solid yellow;
+            margin-bottom: 10px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        img {
+            width: 300px;
+            height: 300px;
+            padding-left: 20%;
+        }
+    }
+
+    #col03 {
+        h2 {
+            color: #F7EBD1;
+            border-bottom: 1px solid yellow;
+            margin-bottom: 10px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        img {
+            width: 400px;
+            height: 500px;
+            padding-left: 10%;
         }
     }
 }

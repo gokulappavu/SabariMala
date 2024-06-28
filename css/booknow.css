@@ -3,14 +3,48 @@
     padding: 0;
 }
 
-.main { 
+.main {
+    .left {
+        height: 730px;
+        width: 67%;
+        float: left;
+        background-image: url('../img/ayyappa-bg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+
+        #lt {
+
+            #htag {
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                color: whitesmoke;
+                bottom: 500px;
+            }
+
+            #letf {
+                position: absolute;
+                color: white;
+                top: 0;
+                font-size: large;
+                font-weight: 600;
+                animation: sachin 20s linear 0s infinite alternate;
+            }
+            
+        }
+    }
+
     .right {
         height: 500px;
+        width: 30%;
         float: right;
         margin: 20px;
         text-align: center;
+
         #rt {
             margin-top: 40%;
+
             h1 {
                 margin: 10px
             }
@@ -22,19 +56,31 @@
             form {
                 display: flex;
                 flex-direction: column;
-                
+
                 .tex {
                     margin-top: 20px;
                     height: 30px;
                 }
 
-                .btn {  
+                .btn {
                     margin-top: 20px;
                 }
             }
-            p{
+
+            p {
                 text-align: left;
             }
         }
+    }
+}
+
+@keyframes sachin {
+    from {
+        left: 0px;
+
+    }
+
+    to {
+        left: 500px;
     }
 }
